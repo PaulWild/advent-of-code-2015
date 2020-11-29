@@ -6,6 +6,10 @@
       &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day5Tests.PartTwo_WhenCalled_ReturnsCorrectly&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day6Tests.PartTwo_WhenCalled_ReturnsCorrectly&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day7Tests.PartOne_WhenCalled_Returns&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests.PartOne_WhenCalled_Workd&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests.PartOne_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests.PartTwo_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;ProjectFile&gt;B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4/d:Days/f:Day07Tests.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
