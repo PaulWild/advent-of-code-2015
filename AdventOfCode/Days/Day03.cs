@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace AdventOfCode.Days
 {
-    public class Day3 : ISolution
+    public class Day03 : ISolution
     {
         public string PartOne(string[] input)
         {

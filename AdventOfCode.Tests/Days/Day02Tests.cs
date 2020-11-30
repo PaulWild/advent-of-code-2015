@@ -8,7 +8,7 @@ namespace AdventOfCode.Tests.Days
     
     public class Day2Tests
     {
-        private readonly ISolution _sut = new Day2();
+        private readonly ISolution _sut = new Day02();
         
         [Fact]
         public void PartOne_WhenCalled_DoesNotThrowNotImplementedException()

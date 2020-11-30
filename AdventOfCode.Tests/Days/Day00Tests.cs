@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using AdventOfCode.Days;
 using FluentAssertions;
 using Xunit;
@@ -6,11 +6,11 @@ using Xunit;
 namespace AdventOfCode.Tests.Days
 {
     
-    public class Day10Tests
+    public class Day0Tests
     {
-        private readonly ISolution _sut = new Day10();
+        private readonly ISolution _sut = new Day00();
         
-        [Fact]
+        [Fact(Skip = "Scaffold")]
         public void PartOne_WhenCalled_DoesNotThrowNotImplementedException()
         {
             Action act = () =>  _sut.PartOne(_sut.Input());
@@ -18,16 +18,7 @@ namespace AdventOfCode.Tests.Days
             act.Should().NotThrow<NotImplementedException>();
         }
         
-        
-        [Fact]
-        public void PartOne_WhenCalled_Works()
-        {
-            var res =   _sut.PartOne(new [] {"111221"});
-            res.Should().Be("312211");
-
-        }
-        
-        [Fact]
+        [Fact(Skip = "Scaffold")]
         public void PartTwo_WhenCalled_DoesNotThrowNotImplementedException()
         {
             Action act = () =>  _sut.PartTwo(_sut.Input());

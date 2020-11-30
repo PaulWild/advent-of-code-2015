@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace AdventOfCode.Days
 {
-    public class Day7 : ISolution
+    public class Day07 : ISolution
     {
         public string PartOne(string[] input)
         {

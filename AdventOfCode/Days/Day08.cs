@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace AdventOfCode.Days
 {
-    public class Day8 : ISolution
+    public class Day08 : ISolution
     {
         public string PartOne(string[] input)
         {

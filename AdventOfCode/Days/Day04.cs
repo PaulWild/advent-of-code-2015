@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 
 namespace AdventOfCode.Days
 {
-    public class Day4 : ISolution
+    public class Day04 : ISolution
     {
         public string PartOne(string[] input)
         {
