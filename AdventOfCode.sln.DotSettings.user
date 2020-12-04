@@ -1,20 +1,20 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=28ac66d2_002D02bd_002D4ee1_002D9194_002Df05a4cac8533/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PartOne_WhenCalled_CalculatesHash" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Or&gt;&#xD;
-    &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day4Tests.PartOne_WhenCalled_CalculatesHash&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day5Tests.PartTwo_WhenCalled_ReturnsCorrectly&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day6Tests.PartTwo_WhenCalled_ReturnsCorrectly&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day7Tests.PartOne_WhenCalled_Returns&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests.PartOne_WhenCalled_Workd&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests.PartOne_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests.PartTwo_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day9Tests.PartOne_WhenCalled_WorksWithTestData&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day11Tests.PartOne_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day11Tests.PartOne_WhenCalled_ShouldWork&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day11Tests&lt;/TestId&gt;&#xD;
-    &lt;/TestAncestor&gt;&#xD;
-    &lt;ProjectFile&gt;B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4/d:Days/f:Day07Tests.cs&lt;/ProjectFile&gt;&#xD;
-  &lt;/Or&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=28ac66d2_002D02bd_002D4ee1_002D9194_002Df05a4cac8533/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PartOne_WhenCalled_CalculatesHash" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day4Tests.PartOne_WhenCalled_CalculatesHash&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day5Tests.PartTwo_WhenCalled_ReturnsCorrectly&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day6Tests.PartTwo_WhenCalled_ReturnsCorrectly&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day7Tests.PartOne_WhenCalled_Returns&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests.PartOne_WhenCalled_Workd&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests.PartOne_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests.PartTwo_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day8Tests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day9Tests.PartOne_WhenCalled_WorksWithTestData&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day11Tests.PartOne_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day11Tests.PartOne_WhenCalled_ShouldWork&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day11Tests&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4/d:Days/f:Day07Tests.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
