@@ -25,7 +25,7 @@ namespace AdventOfCode.Days
         {
             var edges = input
                 .Select(str => Regex.Match(str, @"(?'from'[a-zA-Z]+) to (?'to'[a-zA-Z]+) = (?'distance'[0-9]+)"))
-                .SelectMany(hexCharacters => new Edge[]
+                .SelectMany(hexCharacters => new Day09.Edge[]
                 {
                     new()
                     {
@@ -43,7 +43,7 @@ namespace AdventOfCode.Days
 
             var vertices = edges.SelectMany(x => new[] {x.From, x.To}).Distinct().ToList();
 
-            var permutations = Permutations(vertices);
+            var permutations = vertices.Permutations();
 
             var distances = new List<int>();
             foreach (var permutation in permutations)
@@ -76,26 +76,6 @@ namespace AdventOfCode.Days
             public string To { get; init; }
             
             public int Distance { get; init; }
-        }
-
-        private IEnumerable<List<string>> Permutations(List<string> items) 
-        {
-            if (items.Count == 1)
-            {
-                yield return new [] {items.First()}.ToList();
-            }
-            
-            foreach (var item in  items)
-            {
-                var remaining = items.Where(x => x != item);
-                var other = Permutations(remaining.ToList());
-
-                foreach (var foo in other)
-                {
-                    yield return new[] {item}.Concat(foo).ToList();
-                }
-            }
-
         }
     }
 }
