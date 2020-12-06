@@ -59,7 +59,7 @@ namespace AdventOfCode.Tests.Days
             
             var res =  _sut.PartTwo(input);
 
-            res.Should().Be("17");
+            res.Should().Be("7");
         }
     }
 }
