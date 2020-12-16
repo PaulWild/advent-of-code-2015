@@ -73,7 +73,7 @@ namespace AdventOfCode.Days
 
                 if (operation.Success)
                 {
-                    yield return (operation.Groups["wire"].Value, new Operation()
+                    yield return (operation.Groups["wire"].Value, new Operation
                     {
                         Command = operation.Groups["op"].Value,
                         L = operation.Groups["left"].Value,
@@ -82,7 +82,7 @@ namespace AdventOfCode.Days
                 }
                 else if (not.Success)
                 {
-                    yield return (not.Groups["wire"].Value ,new Operation()
+                    yield return (not.Groups["wire"].Value ,new Operation
                     {
                         Command = "NOT",
                         R = not.Groups["right"].Value
@@ -90,7 +90,7 @@ namespace AdventOfCode.Days
                 }
                 else if (value.Success)
                 {
-                    yield return (value.Groups["wire"].Value ,new Operation()
+                    yield return (value.Groups["wire"].Value ,new Operation
                     {
                         Command = "VALUE",
                         L = value.Groups["left"].Value

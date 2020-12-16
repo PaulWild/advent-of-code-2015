@@ -11,14 +11,14 @@ namespace AdventOfCode.Days
         {
             var sues = input.Select(x => Regex.Match(x,
                     @"Sue \d+: (?'fst'[a-zA-Z]+): (?'fstVal'[0-9]+), (?'snd'[a-zA-Z]+): (?'sndVal'[0-9]+), (?'thd'[a-zA-Z]+): (?'thdVal'[0-9]+)"))
-                .Select(x => new Dictionary<string, int>()
+                .Select(x => new Dictionary<string, int>
                 {
                     {x.Groups["fst"].Value, int.Parse(x.Groups["fstVal"].Value)},
                     {x.Groups["snd"].Value, int.Parse(x.Groups["sndVal"].Value)},
                     {x.Groups["thd"].Value, int.Parse(x.Groups["thdVal"].Value)},
                 }).ToList();
 
-            var mfcsamOutput = new Dictionary<string, int>()
+            var mfcsamOutput = new Dictionary<string, int>
             {
                 {"children", 3},
                 {"cats", 7},
@@ -56,14 +56,14 @@ namespace AdventOfCode.Days
         {
             var sues = input.Select(x => Regex.Match(x,
                     @"Sue \d+: (?'fst'[a-zA-Z]+): (?'fstVal'[0-9]+), (?'snd'[a-zA-Z]+): (?'sndVal'[0-9]+), (?'thd'[a-zA-Z]+): (?'thdVal'[0-9]+)"))
-                .Select(x => new Dictionary<string, int>()
+                .Select(x => new Dictionary<string, int>
                 {
                     {x.Groups["fst"].Value, int.Parse(x.Groups["fstVal"].Value)},
                     {x.Groups["snd"].Value, int.Parse(x.Groups["sndVal"].Value)},
                     {x.Groups["thd"].Value, int.Parse(x.Groups["thdVal"].Value)},
                 }).ToList();
 
-            var mfcsamOutput = new Dictionary<string, int>()
+            var mfcsamOutput = new Dictionary<string, int>
             {
                 {"children", 3},
                 {"cats", 7},

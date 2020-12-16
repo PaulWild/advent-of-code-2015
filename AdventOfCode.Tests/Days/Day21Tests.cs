@@ -6,11 +6,11 @@ using Xunit;
 namespace AdventOfCode.Tests.Days
 {
     
-    public class Day20Tests
+    public class Day21Tests
     {
-        private readonly ISolution _sut = new Day20();
+        private readonly ISolution _sut = new Day21();
         
-        [Fact(Skip = "Takes a while")]
+        [Fact]
         public void PartOne_WhenCalled_DoesNotThrowNotImplementedException()
         {
             Action act = () =>  _sut.PartOne(_sut.Input());
@@ -18,7 +18,7 @@ namespace AdventOfCode.Tests.Days
             act.Should().NotThrow<NotImplementedException>();
         }
         
-        [Fact(Skip = "Takes a while")]
+        [Fact]
         public void PartTwo_WhenCalled_DoesNotThrowNotImplementedException()
         {
             Action act = () =>  _sut.PartTwo(_sut.Input());

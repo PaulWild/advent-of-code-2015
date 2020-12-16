@@ -39,7 +39,7 @@ namespace AdventOfCode.Days
                     @"(?'from'[a-zA-Z]+) would (?'posneg'gain|lose) (?'amount'[0-9]+) happiness units by sitting next to (?'to'[a-zA-Z]+)\.")
                 into match
                 let posNeg = match.Groups["posneg"].Value == "gain" ? 1 : -1
-                select new DayHappinessMap()
+                select new DayHappinessMap
                 {
                     Person = match.Groups["from"].Value,
                     To = match.Groups["to"].Value,

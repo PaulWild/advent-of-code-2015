@@ -5,6 +5,8 @@
     &lt;ProjectFile&gt;B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4/d:Days/f:Day19Tests.cs&lt;/ProjectFile&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
       &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day20Tests.PartOne_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day21Tests.PartOne_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net5.0::AdventOfCode.Tests.Days.Day21Tests.PartTwo_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
